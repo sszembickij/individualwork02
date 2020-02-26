@@ -11,8 +11,8 @@ package stayeurope;/*дан файл с датами например:
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Васька","datesOfStay.txt");
+        Person person = new Person("Васька", "datesOfStay.txt");
         System.out.println(person.isLegalStay());
-
+        //System.out.println(LocalDateTime.parse("01.12.2019", DateTimeFormatter.ofPattern("dd.MM.yyyy HH:mm")));
     }
 }
